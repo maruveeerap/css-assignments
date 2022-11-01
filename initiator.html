@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>initiator</title>
+    <style>
+        body{
+            margin: 0;
+            background-color: pink;
+        }
+         #navbar{
+           
+           width:100%;
+           padding: 5px;
+           display: flex;
+           justify-content: space-between;
+           background-color: rgb(238, 134, 151);
+           
+
+       }
+       #navbar >div{
+           
+           display: flex;
+           margin: 5px;
+       }
+       #navbar >div >p{
+           margin: 20px;
+           text-align: center;
+           color: black;
+           font-weight: bold;
+           font-size: 20px;
+
+       }
+       #navbar >div >p:hover{
+           color: rgb(118, 17, 34);
+       }
+       #navbar > h1{
+           text-align: center;
+           font-size: 24px;
+           margin: 25px 40px;
+           color: rgb(18, 10, 1);
+       }
+       
+       #box{
+            display: grid;
+            grid-template-columns: repeat(3,1fr);
+            grid-template-rows: repeat(3, auto);
+            margin: auto;
+            width: 80%;
+            gap: 20px;
+            padding: 50px;
+
+        }
+        #box>div{
+            box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+            border-radius: 20px;
+            padding: 20px 40px;
+            background-color: bisque;
+            text-align: center;
+        }
+        #box>div>div{
+            justify-content: space-between;
+            display: flex;
+            font-size: 12px;
+            
+        }
+        div > h1{
+            color: goldenrod;
+        }
+        p+button{
+            background-color: black;
+            border-radius: 10px;
+            color: rgb(238, 134, 151);
+            border: 
+            
+
+        }
+        p+button:hover{
+            color: black;
+            background-color: rgb(238, 134, 151) ;
+        }
+        #box>div>div>h1:nth-child(1){
+            color:#dcdad4;
+            
+
+        }
+        #box>div>div>h1:nth-child(2){
+            color:#b9c0cc;
+            
+        }
+        #box>div>div:nth-child(3){
+            color:goldenrod;
+            
+        }
+        #box>div>div>h1:nth-child(4){
+            color:silver;
+            
+        }
+        #box>div>div>h1:nth-child(5){
+            color:#a47651;
+            
+        }
+        #box>div>div>h1:nth-child(6){
+
+            
+        }
+    </style>
+</head>
+<body>
+    <div id="navbar">
+        <h1>INITIATOR DIGITAL</h1>
+        <div>
+            <p>Home</p>
+            <p>Products</p>
+            <p>About</p>
+            <p>Contact Us</p>
+        </div>
+       
+    </div>
+    <div id="box">
+        <div>
+            <div>
+                <h1>Platinum Plan</h1>
+                <h1>999/-</h1>
+            </div>
+            <p>Enjoy Sonyliv + Hotstar + Amazon Prime on any device unintrepted for 1 year.</p>
+            <button>BUY NOW</button>
+
+        </div>
+        <div>
+            <div>
+                <h1>Diamond Plan</h1>
+                <h1>999/-</h1>
+            </div>
+            <p>Enjoy Sonyliv + Hotstar + Amazon Prime on any device unintrepted for 1 year.</p>
+            <button>BUY NOW</button>
+
+        </div>
+        <div>
+            <div>
+                <h1>Gold Plan</h1>
+                <h1>999/-</h1>
+            </div>
+            <p>Enjoy Sonyliv + Hotstar + Amazon Prime on any device unintrepted for 1 year.</p>
+            <button>BUY NOW</button>
+
+        </div>
+        <div>
+            <div>
+                <h1>Silver Plan</h1>
+                <h1>999/-</h1>
+            </div>
+            <p>Enjoy Sonyliv + Hotstar + Amazon Prime on any device unintrepted for 1 year.</p>
+            <button>BUY NOW</button>
+
+        </div>
+        <div>
+            <div>
+                <h1>Bronze Plan</h1>
+                <h1>999/-</h1>
+            </div>
+            <p>Enjoy Sonyliv + Hotstar + Amazon Prime on any device unintrepted for 1 year.</p>
+            <button>BUY NOW</button>
+
+        </div>
+        <div>
+            <div>
+                <h1>Single Plan</h1>
+                <h1>999/-</h1>
+            </div>
+            <p>Enjoy Sonyliv + Hotstar + Amazon Prime on any device unintrepted for 1 year.</p>
+            <button>BUY NOW</button>
+
+        </div>
+        
+        
+    </div>
+    
+</body>
+</html>

@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head></head>
+    <title>Keyboard</title>
+    <script src="https://kit.fontawesome.com/939ba8c56b.js" crossorigin="anonymous"></script>
+    
+    <style>
+        body{
+            background-color: #06bdd5;
+        }
+        #keyboard{
+            display: grid;
+            grid-template-columns: repeat(12,1fr);
+            grid-template-rows: repeat(5,40px);
+            border: 1px solid green;
+            border-radius: 20px;
+            background-color: #262c2c;
+            padding: 20px;
+            width: 80%;
+            gap: 20px;
+            margin: auto;
+            margin-top: 100px;
+        }
+        #keyboard > div{
+            border: 0px solid red;
+            display: grid;
+            border-radius: 10px;
+            justify-content: center;
+            color: white;
+            align-items: center;
+            background-color: #2b3234;
+            box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px, rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
+        }
+        #keyboard > div:hover{
+            color: grey;
+            background-color: aliceblue;
+        }
+        #enter{
+            grid-area:3/11/4/13 ;
+        }
+        #shift{
+            grid-area:4/11/5/13 ;
+
+        }
+        #space{
+            grid-area: 5/5/6/9;
+
+        }
+
+    </style>
+
+</head>
+<body>
+    <div id="keyboard">
+        <div>~</div>
+        <div>1</div>
+        <div>2</div>
+        <div>3</div>
+        <div>4</div>
+        <div>5</div>
+        <div>6</div>
+        <div>7</div>
+        <div>8</div>
+        <div>9</div>
+        <div>0</div>
+        <div>delete</div>
+        <div>tab</div>
+        <div>Q</div>
+        <div>W</div>
+        <div>E</div>
+        <div>R</div>
+        <div>T</div>
+        <div>Y</div>
+        <div>U</div>
+        <div>I</div>
+        <div>O</div>
+        <div>P</div>
+        <div>\</div>
+        <div>CAPS</div>
+        <div>A</div>
+        <div>S</div>
+        <div>D</div>
+        <div>F</div>
+        <div>G</div>
+        <div>H</div>
+        <div>J</div>
+        <div>K</div>
+        <div>L</div>
+        <div id="enter">ENTER</div>
+        <div>SHIFT</div>
+        <div>Z</div>
+        <div>X</div>
+        <div>C</div>
+        <div>V</div>
+        <div>B</div>
+        <div>N</div>
+        <div>M</div>
+        <div><</div>
+        <div>></div>
+        <div id="shift">SHIFT</div>
+        <div><i class="fa-solid fa-globe"></i></div>
+        <div>CTRL</div>
+        <div>OPTIONS</div>
+        <div>ALT</div>
+        <div id="space">SPACE</div>
+        <div>ALT</div>
+        <div>OPTION</div>
+        <div><</div>
+        <div>></div>
+    </div>
+    
+</body>
+</html>
